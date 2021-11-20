@@ -10,7 +10,7 @@ import java.sql.SQLException;
  */
 public class ConnFactory {
     public static Connection getConnection() throws SQLException{
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/agenda", "root", "fisica1997");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/agenda", "root", "*****");
         return conn;
     }
 }
